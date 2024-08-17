@@ -10,28 +10,37 @@ export default function Sidebar() {
       border={"2px solid #000"}
       padding={3}
       borderRadius={"30px"}
-      height={{ xs: "fit-content", sm: "80vh" }}
+      height={{ xs: "fit-content" }}
     >
       <Box
         width={{ xs: "90%", sm: "100%" }}
         margin={{ xs: "auto" }}
-        borderRadius={8}
+        borderRadius={6}
         border={"2px solid #000"}
         p={{ xs: 1, sm: 2 }}
+        display="flex" // Ensure the Box container uses flexbox for alignment
+        alignItems="center" // Vertically center the image within the Box
+        justifyContent="center" // Horizontally center the image within the Box
       >
         <Box
           component={"img"}
           src={avatar}
-          mr={1}
-          ml={{ xs: 3, sm: 0 }}
-          width={200}
+          sx={{
+            maxWidth: "100%", // Image will not exceed the width of the parent Box
+            maxHeight: "100%", // Image will not exceed the height of the parent Box
+            objectFit: "contain", // Adjust the image to fit within the Box while maintaining aspect ratio
+          }}
+          alt="Yuva Sai" // Add alt text for accessibility
         />
       </Box>
+
       <Box
         display="flex"
-        flexDirection="row"
+        flexWrap={"wrap"}
         justifyContent="space-around"
         mt={2}
+        width={"100%"}
+        height={"fit-content"}
       >
         {SocialHandles.map((item, i) => (
           <Link key={i} to={item.link} style={{ color: "#c90a27" }}>
@@ -58,7 +67,7 @@ export default function Sidebar() {
           p={1}
           mt={5}
           width={"100%"}
-          borderRadius={8}
+          borderRadius={5}
           textAlign={"center"}
         >
           View Resume
