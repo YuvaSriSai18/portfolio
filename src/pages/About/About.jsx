@@ -46,7 +46,8 @@ export default function About() {
           ml={{ xs: 0, sm: 3 }}
           color={"#000"}
           fontSize={{ xs: "16px", sm: "19px" }}
-          mt={0.5}
+          mt={1}
+          mb={1}
         >
           Throughout my academic journey, I've developed an intermediate
           foundation in{" "}
@@ -60,6 +61,16 @@ export default function About() {
           of <span style={{ fontWeight: 600 }}>Web Sockets</span> has further
           broadened my understanding of real-time communication and dynamic web
           applications.
+        </Typography> 
+        <Typography
+          component={"p"}
+          ml={{ xs: 0, sm: 3 }}
+          color={"#000"}
+          fontSize={{ xs: "16px", sm: "19px" }}
+          mt={0.5}
+          mb={1}
+        >
+          In addition to coding, I am well-versed in low-code tools like <span style={{ fontWeight: 600 }}>FlutterFlow</span> and <span style={{ fontWeight: 600 }}>Wix</span>, which I've used to build several applications, enabling rapid development and deployment without sacrificing functionality.
         </Typography>
         <Typography
           component={"p"}
