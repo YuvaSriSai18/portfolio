@@ -40,6 +40,11 @@ export const Skill = {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       link: "https://www.python.org",
     },
+    {
+      name: "PHP",
+      icon: "https://iconape.com/wp-content/files/hc/353261/png/353261.png",
+      link: "https://www.php.net",
+    },
   ],
   FrameWorks: [
     {
@@ -61,6 +66,11 @@ export const Skill = {
       name: "Express JS",
       icon: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png",
       link: "https://expressjs.com",
+    },
+    {
+      name: "Socket IO",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfDdHfbDhl1CgpDmFEzn8OXLu6aB84cA2hiRpMkFTpwL-MvdeAjZRRYdLSLp8T_Zm1xM&usqp=CAU",
+      link: "https://socket.io/",
     },
   ],
   Tools: [
