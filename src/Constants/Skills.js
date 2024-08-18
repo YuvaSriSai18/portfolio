@@ -72,6 +72,11 @@ export const Skill = {
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfDdHfbDhl1CgpDmFEzn8OXLu6aB84cA2hiRpMkFTpwL-MvdeAjZRRYdLSLp8T_Zm1xM&usqp=CAU",
       link: "https://socket.io/",
     },
+    {
+      name: "Redux",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+      link: "https://redux.js.org/",
+    },
   ],
   Tools: [
     {
@@ -95,15 +100,15 @@ export const Skill = {
       link: "https://www.canva.com/",
     },
     {
-      name:'MS Office',
-      icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvWE3jAGhdrXDf91pwe73_gnx5i8WyPZjAA&s',
-      link:'https://microsoft.com'
+      name: "MS Office",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvWE3jAGhdrXDf91pwe73_gnx5i8WyPZjAA&s",
+      link: "https://microsoft.com",
     },
     {
-      name:'Notion',
-      icon:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjWg9WdMZNv2tzjkJEzwr9g0KfEySdr1KGw&s',
-      link:'https://www.notion.so/'
-    }
+      name: "Notion",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjWg9WdMZNv2tzjkJEzwr9g0KfEySdr1KGw&s",
+      link: "https://www.notion.so/",
+    },
   ],
   Databases: [
     {
