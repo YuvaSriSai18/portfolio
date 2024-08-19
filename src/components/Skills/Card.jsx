@@ -5,25 +5,23 @@ export default function Card({ obj }) {
   return (
     <Box
       sx={{
-          transition: "transform 0.3s ease-in-out", // Smooth transition effect
-          "&:hover": {
-            transform: "scale(1.2)", // Scale up the image by 1.2 times
-          },
-        }}
+        transition: "transform 0.3s ease-in-out", // Smooth transition effect
+        "&:hover": {
+          transform: "scale(1.2)", // Scale up the image by 1.2 times
+        },
+      }}
     >
-      <Link to={obj.link || "#"} target="_blank">
-        <Tooltip title={obj.name} placement="top">
-          <Box
-            mt={1}
-            component={"img"}
-            border={"2px solid #000"}
-            borderRadius={6}
-            p={2}
-            width={"100px"}
-            src={obj.icon}
-          />
-        </Tooltip>
-      </Link>
+      <Tooltip title={obj.name} placement="top">
+        <Box
+          mt={1}
+          component={"img"}
+          border={"2px solid #000"}
+          borderRadius={6}
+          p={2}
+          width={"100px"}
+          src={obj.icon}
+        />
+      </Tooltip>
     </Box>
   );
 }

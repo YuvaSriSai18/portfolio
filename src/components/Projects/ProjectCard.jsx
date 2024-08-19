@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Button, Divider, Typography, Modal } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 import { Link } from "react-router-dom";
+import "./ProjectCard.css";
 
 const modalStyle = {
   position: "absolute",
@@ -18,22 +19,26 @@ const modalStyle = {
   p: 4,
 };
 
-export default function ProjectCard({ obj }) {
+export default function ProjectCard({ obj, index }) {
+  // Accept the index prop
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
     <Box
-      width={{ xs:270, sm: 230, lg: 250 }}
+      width={{ xs: 270, sm: 230, lg: 250 }}
       borderRadius={8}
       border={"2px solid #000"}
       display={"flex"}
       flexDirection={"column"}
       sx={{
-        transition: "transform 0.3s ease-in-out", // Smooth transition effect
+        transition: "transform 0.3s ease-in-out",
+        animation: `fadeSlideUp 1s ease-out`,
+        animationDelay: `${index * 0.1}s`, // Use the index to stagger the animation
+        animationFillMode: "both",
         "&:hover": {
-          transform: "scale(1.1)", // Scale up the image by 1.2 times
+          transform: "scale(1.1)",
         },
       }}
     >
@@ -70,7 +75,6 @@ export default function ProjectCard({ obj }) {
         </Link>
 
         <Box
-          //   component={"button"}
           display={"flex"}
           border={"1px solid #000"}
           p={0.5}
@@ -116,13 +120,15 @@ export default function ProjectCard({ obj }) {
           <Typography>
             <b>Tech stack: </b>
             {obj.techStack.map((item, i) => (
-              <li>{item}</li>
+              <li key={i}>{item}</li>
             ))}
           </Typography>
           {obj.demoUrl ? (
             <>
               <Box mt={1} mb={1}>
-                <Link to={obj.demoUrl} target="_blank">Demo Link</Link>
+                <Link to={obj.demoUrl} target="_blank">
+                  Demo Link
+                </Link>
               </Box>
             </>
           ) : (

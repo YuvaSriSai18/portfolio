@@ -18,9 +18,9 @@ export default function Blogs() {
           }}
         />
       </Box>
-      <Box rowGap={2} display={'flex'} flexDirection={'column'} mt={2}>
+      <Box rowGap={2} display={"flex"} flexDirection={"column"} mt={2}>
         {BlogsData.map((item, i) => (
-          <BlogCard obj={item} key={i} />
+          <BlogCard obj={item} key={i} index={i} />
         ))}
       </Box>
     </>

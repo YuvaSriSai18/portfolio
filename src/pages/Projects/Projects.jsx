@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Divider } from "@mui/material";
 import { ProjectsData } from "../../Constants/ProjectsData";
 import ProjectCard from "../../components/Projects/ProjectCard";
+
 export default function Projects() {
   return (
     <>
@@ -18,12 +19,17 @@ export default function Projects() {
           }}
         />
       </Box>
-      <Box display={"flex"} flexWrap={"wrap"}  columnGap={{xs:0,sm:2}} rowGap={4} ml={{xs:2.3,sm:3}} mt={3}>
-        {
-          ProjectsData.map((item,i) => (
-            <ProjectCard obj={item} key={i} />
-          ))
-        }
+      <Box
+        display={"flex"}
+        flexWrap={"wrap"}
+        columnGap={{ xs: 0, sm: 2 }}
+        rowGap={4}
+        ml={{ xs: 2.3, sm: 3 }}
+        mt={3}
+      >
+        {ProjectsData.map((item, i) => (
+          <ProjectCard obj={item} key={i} index={i} />
+        ))}
       </Box>
     </>
   );

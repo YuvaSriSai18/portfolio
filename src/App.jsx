@@ -10,7 +10,18 @@ function AppContent() {
   const location = useLocation();
   const isMobile = useMediaQuery("(max-width:600px)");
 
-  const noSidebarRoutes = ["/skills", "/projects", "/blogs"];
+  const noSidebarRoutes = [
+    "/skills",
+    "/projects",
+    "/blogs",
+    "/redux-blog",
+    "/context-vs-redux",
+    "/websockets-vs-rest",
+    "/socket-io",
+    "/getting-started-with-flutterflow",
+    "/customizing-flutterflow-app",
+    "/firebase-flutterflow-integration",
+  ];
 
   const showSidebar = !noSidebarRoutes.some((route) =>
     location.pathname.includes(route)
@@ -42,9 +53,9 @@ function AppContent() {
           padding={3}
           borderRadius={"30px"}
           height={"80vh"}
-          overflow={'hidden'}
+          overflow={"hidden"}
           sx={{
-            overflowY:'scroll'
+            overflowY: "scroll",
           }}
           mt={{ xs: 2, md: 0 }}
         >

@@ -2,7 +2,8 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
 import { Link } from "react-router-dom";
-export default function BlogCard({ obj }) {
+import "../../pages/Blogs/Blogs_Info/Blogs.css";
+export default function BlogCard({ obj, index }) {
   return (
     <Link to={obj.link} style={{ textDecoration: "none" }}>
       <Box
@@ -14,6 +15,11 @@ export default function BlogCard({ obj }) {
         justifyContent={"space-between"}
         border={"2px solid #000"}
         p={{ xs: 1, sm: 2 }}
+        sx={{
+          animation: `fadeSlideUp 1s ease-out`,
+          animationDelay: `${index * 0.1}s`, // Use the index to stagger the animation
+          animationFillMode: "both",
+        }}
       >
         <Box display={"flex"} columnGap={{ xs: 1, sm: 5 }}>
           <Box
