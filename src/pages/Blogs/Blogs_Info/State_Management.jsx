@@ -46,11 +46,11 @@ export default function State_Management() {
         </ol>
       </Box>
       <Box sx={{ overflowX: "auto" }}>
-        <table style={{ borderRadius: "5px" }}>
+        <table>
           <tr>
             <th>Feature</th>
             <th>Context API</th>
-            <th>Feature</th>
+            <th>Redux</th>
           </tr>
           <tr>
             <td>Purpose</td>
