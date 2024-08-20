@@ -17,12 +17,12 @@ export const BlogsData = [
     img: "https://raw.githubusercontent.com/tidwall/SwiftWebSocket/2.6.5/tools/res/logo.png",
     link: "/websockets-vs-rest",
   },
-  // {
-  //   name: "Socket IO",
-  //   desc: "Socket.io is a popular library for enabling real-time, bidirectional communication between clients and servers. Discover how to use Socket.io for building real-time applications like chat apps and collaborative platforms.",
-  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfDdHfbDhl1CgpDmFEzn8OXLu6aB84cA2hiRpMkFTpwL-MvdeAjZRRYdLSLp8T_Zm1xM&usqp=CAU",
-  //   link: "/socket-io",
-  // },
+  {
+    name: "Socket IO",
+    desc: "Socket.io is a popular library for enabling real-time, bidirectional communication between clients and servers. Discover how to use Socket.io for building real-time applications like chat apps and collaborative platforms.",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfDdHfbDhl1CgpDmFEzn8OXLu6aB84cA2hiRpMkFTpwL-MvdeAjZRRYdLSLp8T_Zm1xM&usqp=CAU",
+    link: "/socket-io",
+  },
   // {
   //   name: "Getting Started with FlutterFlow",
   //   desc: "FlutterFlow is a powerful low-code platform for building Flutter applications quickly. This guide will help you get started with FlutterFlow and understand its core features.",
