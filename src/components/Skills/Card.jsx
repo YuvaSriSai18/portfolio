@@ -21,6 +21,7 @@ export default function Card({ obj }) {
           p={2}
           width={"100px"}
           src={obj.icon}
+          alt={obj.name}
           sx={{cursor:'pointer'}}
         />
       </Tooltip>
