@@ -51,6 +51,7 @@ export default function Sidebar() {
               component={"img"}
               width="45px"
               src={item.img}
+              alt={item.name}
             />
           </Link>
         ))}
