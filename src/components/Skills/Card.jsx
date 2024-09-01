@@ -5,7 +5,7 @@ export default function Card({ obj }) {
   return (
     <Box
       sx={{
-        cursor:'pointer',
+        cursor: "pointer",
         transition: "transform 0.3s ease-in-out", // Smooth transition effect
         "&:hover": {
           transform: "scale(1.2)", // Scale up the image by 1.2 times
@@ -22,7 +22,7 @@ export default function Card({ obj }) {
           width={"100px"}
           src={obj.icon}
           alt={obj.name}
-          sx={{cursor:'pointer'}}
+          sx={{ cursor: "pointer" }}
         />
       </Tooltip>
     </Box>

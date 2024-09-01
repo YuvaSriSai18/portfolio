@@ -78,6 +78,35 @@ export const Skill = {
       link: "https://redux.js.org/",
     },
   ],
+  Databases: [
+    {
+      name: "Firebase",
+      icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "My SQL",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "Mongo DB",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      link: "https://www.mongodb.com/",
+    },
+  ],
+  LowCodeTools: [
+    {
+      name: "FlutterFlow",
+      icon: "https://cdn-images-1.medium.com/v2/resize:fit:280/1*4L0V4NfPLm50GPa-aKWEtw@2x.png",
+      link: "https://flutterflow.io/",
+    },
+    {
+      name: "Wix",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_Rm9zSydrOW5Iuht8YeJrflEjklkAEDw2w&s",
+      link: "https://www.wix.com/",
+    },
+  ],
   Tools: [
     {
       name: "Figma",
@@ -108,35 +137,6 @@ export const Skill = {
       name: "Notion",
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjWg9WdMZNv2tzjkJEzwr9g0KfEySdr1KGw&s",
       link: "https://www.notion.so/",
-    },
-  ],
-  Databases: [
-    {
-      name: "Firebase",
-      icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "My SQL",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      link: "https://www.mysql.com/",
-    },
-    {
-      name: "Mongo DB",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      link: "https://www.mongodb.com/",
-    },
-  ],
-  LowCodeTools: [
-    {
-      name: "FlutterFlow",
-      icon: "https://cdn-images-1.medium.com/v2/resize:fit:280/1*4L0V4NfPLm50GPa-aKWEtw@2x.png",
-      link: "https://flutterflow.io/",
-    },
-    {
-      name: "Wix",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_Rm9zSydrOW5Iuht8YeJrflEjklkAEDw2w&s",
-      link: "https://www.wix.com/",
     },
   ],
 };
