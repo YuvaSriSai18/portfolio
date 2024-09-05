@@ -30,6 +30,7 @@ export default function Sidebar() {
             maxWidth: "100%", // Image will not exceed the width of the parent Box
             maxHeight: "100%", // Image will not exceed the height of the parent Box
             objectFit: "contain", // Adjust the image to fit within the Box while maintaining aspect ratio
+            borderRadius:6
           }}
           alt="Yuva Sai" // Add alt text for accessibility
         />
