@@ -1,6 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
 import avatar from "../../assets/avatar.png";
+import avatar1 from '../../assets/avatar1.png'
 import { Link } from "react-router-dom";
 import { SocialHandles } from "../../Constants/SocialMedia";
 export default function Sidebar() {
@@ -17,14 +18,14 @@ export default function Sidebar() {
         margin={{ xs: "auto" }}
         borderRadius={6}
         border={"2px solid #000"}
-        p={{ xs: 1, sm: 2 }}
+        // p={{ xs: 1, sm: 2 }}
         display="flex" // Ensure the Box container uses flexbox for alignment
         alignItems="center" // Vertically center the image within the Box
         justifyContent="center" // Horizontally center the image within the Box
       >
         <Box
           component={"img"}
-          src={avatar}
+          src={avatar1}
           sx={{
             maxWidth: "100%", // Image will not exceed the width of the parent Box
             maxHeight: "100%", // Image will not exceed the height of the parent Box
