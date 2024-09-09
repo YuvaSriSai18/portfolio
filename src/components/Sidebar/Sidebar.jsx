@@ -60,7 +60,7 @@ export default function Sidebar() {
       </Box>
       <Link
         to={
-          "https://drive.google.com/file/d/1fmNzRPcobwRE4Bbd-VIVeBm2IEGwOWQ6/view?usp=drive_link"
+          "https://drive.google.com/file/d/1uGYhe--UbG24r_4VYF3h-_SO83z_YIcX/view?usp=sharing"
         }
         style={{ textDecoration: "none" }}
         target="_blank"
