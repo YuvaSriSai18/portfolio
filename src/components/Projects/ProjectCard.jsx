@@ -29,7 +29,7 @@ export default function ProjectCard({ obj, index }) {
     <Box
       width={{ xs: 270, sm: 230, lg: 250 }}
       borderRadius={8}
-      border={"2px solid #000"}
+      border={"1px solid #000"}
       display={"flex"}
       flexDirection={"column"}
       sx={{
@@ -114,7 +114,7 @@ export default function ProjectCard({ obj, index }) {
           <Typography id="project-modal-title" variant="h6" component="h2">
             {obj.title}
           </Typography>
-          <Typography id="project-modal-description" sx={{ mt: 2 }}>
+          <Typography id="project-modal-description" sx={{ mt: 2 , textAlign:'justify' }}>
             {obj.projectDesc} {/* Display detailed description here */}
           </Typography>
           <Typography>

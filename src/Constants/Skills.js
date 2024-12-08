@@ -40,11 +40,11 @@ export const Skill = {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       link: "https://www.python.org",
     },
-    {
-      name: "PHP",
-      icon: "https://iconape.com/wp-content/files/hc/353261/png/353261.png",
-      link: "https://www.php.net",
-    },
+    // {
+    //   name: "PHP",
+    //   icon: "https://iconape.com/wp-content/files/hc/353261/png/353261.png",
+    //   link: "https://www.php.net",
+    // },
   ],
   FrameWorks: [
     {

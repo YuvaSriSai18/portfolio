@@ -21,9 +21,11 @@ export default function Projects() {
       </Box>
       <Box
         display={"flex"}
+        // justifyContent={"space-evenly"}
         flexWrap={"wrap"}
         columnGap={{ xs: 0, sm: 2 }}
-        rowGap={4}
+        // rowGap={4}
+        gap={3}
         ml={{ xs: 2.3, sm: 3 }}
         mt={3}
       >
