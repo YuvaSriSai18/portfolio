@@ -1,28 +1,33 @@
 export const Skill = {
   Languages: [
-    {
-      name: "C Programming",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-      link: "https://www.cprogramming.com/",
-    },
+    // {
+    //   name: "C Programming",
+    //   icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    //   link: "https://www.cprogramming.com/",
+    // },
     {
       name: "C++",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
       link: "https://www.w3schools.com/cpp/",
     },
-    {
-      name: "HTML5",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-      link: "https://www.w3.org/html/",
-    },
-    {
-      name: "CSS3",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
-      link: "https://www.w3schools.com/css/",
-    },
+    // {
+    //   name: "HTML5",
+    //   icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+    //   link: "https://www.w3.org/html/",
+    // },
+    // {
+    //   name: "CSS3",
+    //   icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+    //   link: "https://www.w3schools.com/css/",
+    // },
     {
       name: "JavaScript",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+      name: "TypeScript",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
@@ -33,6 +38,11 @@ export const Skill = {
     {
       name: "React JS",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      link: "https://reactjs.org/",
+    },
+    {
+      name: "Next JS",
+      icon: "https://img.icons8.com/fluent-systems-regular/200/nextjs.png" || "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
       link: "https://reactjs.org/",
     },
     {
@@ -109,6 +119,11 @@ export const Skill = {
   ],
   Tools: [
     {
+      name: "Redis",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg",
+      link: "https://www.redis.io/",
+    },
+    {
       name: "Figma",
       icon: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
       link: "https://www.figma.com/",
@@ -123,11 +138,11 @@ export const Skill = {
       icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       link: "https://postman.com",
     },
-    {
-      name: "Canva",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png",
-      link: "https://www.canva.com/",
-    },
+    // {
+    //   name: "Canva",
+    //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png",
+    //   link: "https://www.canva.com/",
+    // },
     {
       name: "MS Office",
       icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvWE3jAGhdrXDf91pwe73_gnx5i8WyPZjAA&s",

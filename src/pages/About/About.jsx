@@ -37,32 +37,32 @@ export default function About() {
           fontSize={{ xs: "16px", sm: "19px" }}
           mt={0.5}
         >
-          A passionate tech enthusiast, I am driven by an insatiable curiosity
-          and a love for continuous learning. My journey in the digital realm
-          has been a thrilling exploration of the intricate dance between human
-          creativity and technological innovation.
+          I’m a passionate full stack developer and tech enthusiast with a deep
+          curiosity for how things work and a constant drive to learn and innovate.
+          My journey in the digital world has been a blend of creativity, logic,
+          and exploration—bridging human-centered design with cutting-edge technology.
         </Typography>
         <Typography
-          component={"p"}
-          ml={{ xs: 0, sm: 3 }}
-          color={"#000"}
-          fontSize={{ xs: "16px", sm: "19px" }}
-          mt={1}
-          mb={1}
-        >
-          Throughout my academic journey, I've developed an intermediate
-          foundation in{" "}
-          <span style={{ fontWeight: 600 }}>
-            Data Structures and Algorithms
-          </span>
-          , particularly in C++, which has sharpened my problem-solving skills.
-          More recently, I've expanded my expertise into the{" "}
-          <span style={{ fontWeight: 600 }}>MERN Stack</span>, delving deep into
-          the world of full-stack development. My exploration into the workings
-          of <span style={{ fontWeight: 600 }}>Web Sockets</span> has further
-          broadened my understanding of real-time communication and dynamic web
-          applications.
-        </Typography>
+  component={"p"}
+  ml={{ xs: 0, sm: 3 }}
+  color={"#000"}
+  fontSize={{ xs: "16px", sm: "19px" }}
+  mt={1}
+  mb={1}
+>
+  I have a solid foundation in{" "}
+  <span style={{ fontWeight: 600 }}>Data Structures and Algorithms</span>{" "}
+  (C++), which has sharpened my problem-solving abilities. Over time, I’ve
+  transitioned into{" "}
+  <span style={{ fontWeight: 600 }}>modern full stack development</span>,
+  working with technologies like{" "}
+  <span style={{ fontWeight: 600 }}>React, Next.js (with TypeScript)</span>,{" "}
+  <span style={{ fontWeight: 600 }}>Node.js</span>, and{" "}
+  <span style={{ fontWeight: 600 }}>Redis</span>. I’ve also explored{" "}
+  <span style={{ fontWeight: 600 }}>Web Sockets</span> to build
+  real-time, dynamic applications.
+</Typography>
+
         <Typography
           component={"p"}
           ml={{ xs: 0, sm: 3 }}
@@ -71,11 +71,10 @@ export default function About() {
           mt={0.5}
           mb={1}
         >
-          In addition to coding, I am well-versed in low-code tools like{" "}
+          I also enjoy working with low-code platforms like{" "}
           <span style={{ fontWeight: 600 }}>FlutterFlow</span> and{" "}
-          <span style={{ fontWeight: 600 }}>Wix</span>, which I've used to build
-          several applications, enabling rapid development and deployment
-          without sacrificing functionality.
+          <span style={{ fontWeight: 600 }}>Wix</span>, which allow me to quickly
+          build and deploy intuitive applications without compromising on functionality.
         </Typography>
         <Typography
           component={"p"}
@@ -84,10 +83,10 @@ export default function About() {
           fontSize={{ xs: "16px", sm: "19px" }}
           mt={0.5}
         >
-          In this ever-evolving field, I strive to blend creativity with logic,
-          innovation with tradition, and technology with the human spirit. As I
-          continue to grow and learn, I am excited about the endless
-          possibilities that the future holds.
+          I strive to blend innovation with practicality, and I’m always eager
+          to take on challenges that push me to grow. As I continue to explore
+          the ever-evolving tech landscape, I look forward to building meaningful
+          solutions that leave a positive impact.
         </Typography>
       </Box>
       <Box mt={3}>
@@ -130,7 +129,7 @@ export default function About() {
         </Box>
       </Box>
       <InterestsAbout />
-      {/* <CodingStats/> */}
+      {/* <CodingStats /> */}
     </>
   );
 }
