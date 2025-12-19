@@ -50,6 +50,15 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setActiveSection(sectionId);
+    }
+  };
+
   return (
     <motion.nav
       initial={{ y: -100, opacity: 0 }}
@@ -70,8 +79,9 @@ const Navbar = () => {
           {navItems.map((item) => (
             <a
               key={item.label}
-              href={item.href}
-              className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
+              href="#"
+              onClick={(e) => handleNavClick(e, item.href.slice(1))}
+              className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 cursor-pointer ${
                 activeSection === item.href.slice(1)
                   ? 'text-primary'
                   : 'text-muted-foreground hover:text-foreground'
@@ -127,9 +137,12 @@ const Navbar = () => {
           {navItems.map((item) => (
             <a
               key={item.label}
-              href={item.href}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all ${
+              href="#"
+              onClick={(e) => {
+                handleNavClick(e, item.href.slice(1));
+                setIsMobileMenuOpen(false);
+              }}
+              className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all cursor-pointer ${
                 activeSection === item.href.slice(1)
                   ? 'text-primary bg-primary/10'
                   : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
