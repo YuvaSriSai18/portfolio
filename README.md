@@ -1,73 +1,135 @@
-# Welcome to your Lovable project
+# Personal Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing projects, skills, and professional experience. Built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+- **Responsive Design** - Optimized for mobile, tablet, and desktop devices
+- **Dark Mode Support** - Theme switching capability with context-based state management
+- **Analytics Dashboard** - Track portfolio views and user interactions
+- **Blog Section** - Showcase your articles and technical posts
+- **Projects Showcase** - Display and highlight your best work
+- **Skills Display** - Organized presentation of technical expertise
+- **Contact Integration** - Easy-to-use contact section with call-to-action
+- **Firebase Integration** - Backend services for data management
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Backend**: Firebase
+- **Package Manager**: Bun
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📦 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js 16+ or Bun runtime
+- npm, yarn, or bun package manager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone https://github.com/YuvaSriSai18/portfolio.git
 
-Follow these steps:
+# Navigate to project directory
+cd portfolio
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Install dependencies
+npm install
+# or
+bun install
 ```
 
-**Edit a file directly in GitHub**
+### Development
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Start development server
+npm run dev
+# or
+bun run dev
+```
 
-**Use GitHub Codespaces**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Build
 
-## What technologies are used for this project?
+```bash
+# Create production build
+npm run build
+# or
+bun run build
+```
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/          # Reusable React components
+│   ├── Navbar.tsx
+│   ├── HeroSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── BlogsSection.tsx
+│   ├── AnalyticsSection.tsx
+│   └── ui/             # shadcn-ui components
+├── contexts/           # React context providers
+│   ├── ThemeContext.tsx
+│   └── AvatarModalContext.tsx
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions and Firebase config
+├── constants/          # JSON data for content
+└── pages/              # Page components
+```
 
-## How can I deploy this project?
+## 🎨 Customization
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Update Content
 
-## Can I connect a custom domain to my Lovable project?
+All content is managed through JSON files in `src/constants/`:
+- `projects.json` - Your portfolio projects
+- `skills.json` - Technical skills and expertise
+- `blogs.json` - Blog posts
+- `interests.json` - Personal interests
+- `analytics.json` - Analytics data
 
-Yes, you can!
+### Styling
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The project uses Tailwind CSS for styling. Configuration can be modified in `tailwind.config.ts`.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🔧 Configuration
+
+### Firebase Setup
+
+Configure your Firebase credentials in `src/lib/firebase.ts` with your project details.
+
+### Environment Variables
+
+Create a `.env` file in the root directory if needed for environment-specific configurations.
+
+## 🚀 Deployment
+
+Deploy to Firebase Hosting or any static hosting service:
+
+```bash
+# Build for production
+npm run build
+
+# Deploy with Firebase
+firebase deploy
+```
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+[Your Name/Profile](https://github.com/YuvaSriSai18)
+
+---
+
+**Happy coding! 🎉**
