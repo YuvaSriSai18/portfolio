@@ -1,0 +1,60 @@
+{
+  "github": {
+    "username": "yuvasrisai",
+    "totalCommits": 1247,
+    "totalRepos": 42,
+    "totalCollaborators": 156,
+    "totalContributions": 892,
+    "contributionData": [
+      { "month": "Jan", "contributions": 65 },
+      { "month": "Feb", "contributions": 78 },
+      { "month": "Mar", "contributions": 92 },
+      { "month": "Apr", "contributions": 85 },
+      { "month": "May", "contributions": 110 },
+      { "month": "Jun", "contributions": 95 },
+      { "month": "Jul", "contributions": 88 },
+      { "month": "Aug", "contributions": 102 },
+      { "month": "Sep", "contributions": 76 },
+      { "month": "Oct", "contributions": 115 },
+      { "month": "Nov", "contributions": 98 },
+      { "month": "Dec", "contributions": 88 }
+    ],
+    "languageUsage": [
+      { "name": "JavaScript", "percentage": 35, "color": "#F7DF1E" },
+      { "name": "TypeScript", "percentage": 28, "color": "#3178C6" },
+      { "name": "Python", "percentage": 20, "color": "#3776AB" },
+      { "name": "Java", "percentage": 10, "color": "#ED8B00" },
+      { "name": "Other", "percentage": 7, "color": "#6B7280" }
+    ]
+  },
+  "coding": {
+    "leetcode": {
+      "solved": 450,
+      "easy": 180,
+      "medium": 220,
+      "hard": 50,
+      "ranking": 15234
+    },
+    "codeforces": {
+      "rating": 1580,
+      "maxRating": 1650,
+      "rank": "Expert",
+      "solved": 320
+    },
+    "codechef": {
+      "rating": 1890,
+      "stars": 4,
+      "solved": 280
+    },
+    "activityData": [
+      { "week": "W1", "problems": 12 },
+      { "week": "W2", "problems": 18 },
+      { "week": "W3", "problems": 15 },
+      { "week": "W4", "problems": 22 },
+      { "week": "W5", "problems": 19 },
+      { "week": "W6", "problems": 25 },
+      { "week": "W7", "problems": 16 },
+      { "week": "W8", "problems": 21 }
+    ]
+  }
+}

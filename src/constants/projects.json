@@ -1,0 +1,134 @@
+{
+  "projects": [
+        {
+      "id": 5,
+      "title": "Shadow KYC",
+      "description": "A privacy-preserving KYC system built using Zero-Knowledge Proofs that allows users to prove KYC compliance without revealing sensitive personal information. Designed for secure, decentralized identity verification on blockchain-based systems.",
+      "techStack": ["Solidity", "Zero-Knowledge Proofs", "Circom", "SnarkJS", "Blockchain"],
+      "image": "shadow-kyc",
+      "github": "https://github.com/YuvaSriSai18/Shadow-KYC",
+      "live": "",
+      "featured": true
+    },
+        {
+      "id": 6,
+      "title": "Job Alerts Bot",
+      "description": "An automated job alert system that continuously monitors job postings, filters them based on predefined criteria, and sends real-time notifications to users. Designed to help candidates stay updated with relevant job opportunities efficiently.",
+      "techStack": ["Python", "Automation", "APIs", "Scheduling"],
+      "image": "job-alerts-bot",
+      "github": "https://github.com/YuvaSriSai18/Job-Alerts-Bot",
+      "live": "https://jobalertsbot.vercel.app/",
+      "featured": true
+    },
+        {
+      "id": 7,
+      "title": "Queue-CTL",
+      "description": "A command-line tool for simulating and controlling queue-based scheduling systems. Built to demonstrate core operating system concepts such as queue management, process handling, and controlled execution flow.",
+      "techStack": ["C", "Operating Systems", "CLI"],
+      "image": "queue-ctl",
+      "github": "https://github.com/YuvaSriSai18/Queue-CTL",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": 1,
+      "title": "Blockopoly",
+      "description": "Blockopoly is a blockchain-powered version of the classic Monopoly game. It leverages Web3 technologies such as ERC20 tokens, NFTs, and Ethereum smart contracts to create a decentralized, transparent, and trustless gaming experience.",
+      "techStack": ["TypeScript", "Solidity", "Ethereum", "WebSockets"],
+      "image": "blockopoly",
+      "github": "https://github.com/YuvaSriSai18/Hack-SRM-reloaded",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": 2,
+      "title": "ATS Forge",
+      "description": "A modern, dynamic resume builder that allows users to create, preview, and download beautifully formatted, ATS-friendly resumes directly from the browser with a clean and intuitive UI.",
+      "techStack": ["Next.js", "Tailwind CSS"],
+      "image": "ats-forge",
+      "github": "https://github.com/YuvaSriSai18/resume-builder",
+      "live": "https://ats-forge.vercel.app/",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "HyVault",
+      "description": "HyVault is a secure file-sharing platform built using hybrid encryption. It combines AES for fast data encryption with RSA for secure key exchange, ensuring true end-to-end encryption and secure data access.",
+      "techStack": ["React", "Node-Forge", "Cryptography", "Tailwind CSS"],
+      "image": "hyvault",
+      "github": "https://github.com/YuvaSriSai18/hyvault",
+      "live": "https://hyvault.vercel.app/",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Course Lesson Planner",
+      "description": "An AI-powered lesson planning tool for educators that generates structured lesson plans based on subject, grade, and duration. Uses Gemini LLM with tailored prompt engineering to produce high-quality academic content.",
+      "techStack": ["React", "Generative AI", "Gemini LLM", "Tailwind CSS"],
+      "image": "course-gpt",
+      "github": "https://github.com/YuvaSriSai18/course-gpt",
+      "live": "https://course-gpt-phi.vercel.app/",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "SRMAP Mess App",
+      "description": "A mobile application for SRM University AP students to view daily mess menus and submit feedback. The app improves dining experience by enabling continuous feedback-driven improvements.",
+      "techStack": ["FlutterFlow", "Firebase"],
+      "image": "srmap-mess",
+      "github": "https://github.com/amcny/srmap_messapp",
+      "live": "https://play.google.com/store/apps/details?id=com.mycompany.srmapmess",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "title": "Environment Monitoring System",
+      "description": "A system to monitor environmental parameters such as air quality, temperature, and humidity, predict pollution trends using machine learning, and provide real-time alerts for proactive environmental action.",
+      "techStack": ["Python", "Node.js", "React", "Firebase", "Scikit-learn"],
+      "image": "environment-monitoring",
+      "github": "https://github.com/YuvaSriSai18/Environment_Monitoring_System",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "title": "Quiz Application",
+      "description": "A full-stack quiz platform built with the MERN stack, featuring Google OAuth 2.0 authentication, real-time leaderboards, quiz management, and responsive UI with animations.",
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+      "image": "quiz-app",
+      "github": "https://github.com/YuvaSriSai18/Quiz-App-Dummy",
+      "live": "https://quiz-app-dummy.vercel.app/",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "AI Job Matching Platform",
+      "description": "An AI-powered job matching platform that analyzes resumes and job descriptions using Gemini LLM to provide accurate role matching and personalized job recommendations.",
+      "techStack": ["React", "Express", "MongoDB", "Firebase", "OCR API"],
+      "image": "job-matching",
+      "github": "https://github.com/YuvaSriSai18/Job-Matching",
+      "live": "https://job-matching-18.vercel.app/",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "title": "CPU Scheduler Simulation",
+      "description": "A simulation of CPU scheduling algorithms that dynamically manages multiple jobs across CPU cores, demonstrating concepts such as preemptive scheduling, priority handling, and efficient resource allocation.",
+      "techStack": ["Python", "Operating Systems"],
+      "image": "cpu-scheduler",
+      "github": "https://github.com/YuvaSriSai18/CPU-Scheduler-Simulation",
+      "live": "",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Round Robin Scheduling",
+      "description": "An implementation of the Round Robin CPU scheduling algorithm that assigns fixed time slices to processes in a cyclic order, ensuring fairness and preventing process starvation.",
+      "techStack": ["C", "Operating Systems"],
+      "image": "round-robin",
+      "github": "https://github.com/YuvaSriSai18/Round-Robin-Scheduling",
+      "live": "",
+      "featured": false
+    }
+  ]
+}

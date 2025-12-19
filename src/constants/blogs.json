@@ -1,0 +1,40 @@
+{
+  "blogs": [
+        {
+      "id": 1,
+      "title": "Building Scalable React Applications with TypeScript",
+      "excerpt": "A comprehensive guide to structuring large-scale React projects using TypeScript, covering best practices for type safety, component architecture, and state management.",
+      "date": "2024-12-15",
+      "readTime": "8 min read",
+      "tags": ["React", "TypeScript", "Architecture"],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Mastering Docker for Development Workflows",
+      "excerpt": "Learn how to containerize your applications, set up multi-container environments with Docker Compose, and streamline your development process.",
+      "date": "2024-11-28",
+      "readTime": "6 min read",
+      "tags": ["Docker", "DevOps", "Containers"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Understanding System Design: From Basics to Advanced",
+      "excerpt": "Deep dive into system design principles, covering load balancing, caching strategies, database sharding, and microservices architecture.",
+      "date": "2024-11-10",
+      "readTime": "12 min read",
+      "tags": ["System Design", "Architecture", "Backend"],
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "The Art of Writing Clean Code",
+      "excerpt": "Explore principles of clean code, refactoring techniques, and how to write maintainable, readable code that your future self will thank you for.",
+      "date": "2024-10-25",
+      "readTime": "5 min read",
+      "tags": ["Clean Code", "Best Practices", "Programming"],
+      "link": "#"
+    }
+  ]
+}

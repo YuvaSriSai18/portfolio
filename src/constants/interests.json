@@ -1,0 +1,46 @@
+{
+  "interests": [
+    {
+      "id": 1,
+      "title": "Full Stack Development",
+      "description": "Building scalable end-to-end applications with modern frontend frameworks, robust backend APIs, and optimized databases.",
+      "icon": "Layers"
+    },
+    {
+      "id": 2,
+      "title": "Algorithms & Problem Solving",
+      "description": "Solving algorithmic challenges and strengthening core computer science fundamentals through consistent practice.",
+      "icon": "Binary"
+    },
+    {
+      "id": 3,
+      "title": "Databases & Data Modeling",
+      "description": "Designing efficient database schemas, optimizing queries, and working with both SQL and NoSQL systems.",
+      "icon": "Database"
+    },
+    {
+      "id": 4,
+      "title": "Software Engineering",
+      "description": "Applying clean code principles, system design patterns, and best practices to build reliable software systems.",
+      "icon": "Code2"
+    },
+    {
+      "id": 5,
+      "title": "Application Security",
+      "description": "Exploring secure coding practices, authentication mechanisms, and vulnerability prevention in modern applications.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": 6,
+      "title": "Operational Security",
+      "description": "Understanding system-level security concepts, access controls, and secure operational workflows.",
+      "icon": "Lock"
+    },
+    {
+      "id": 7,
+      "title": "DevOps & Automation",
+      "description": "Automating deployments, managing CI/CD pipelines, and improving development workflows through DevOps practices.",
+      "icon": "ServerCog"
+    }
+  ]
+}
